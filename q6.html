@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ecove Interactive game</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,500,700,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <h1 class="sr-only">ECOVE Environment Services Corp</h1>
+        </header>
+        <div class="main">
+            <div class="game" data-anwser="E" data-next="q7.html">
+                <p class="text-tips">Please drag the bag with the correct answer to the clip</p>
+                <p class="q q-6">To effectively attain CSR fulfillment goals, ECOVE has set up CSR Task Forces. What working groups do these CSR Task Forces have for sustainability-related actions?</p>
+                <div class="clip">
+                    <span class="clip-hand clip-hand--left"></span>
+                    <span class="clip-hand clip-hand--right"></span>
+                    <span class="clip-body"></span>
+                </div>
+                <ul class="dragObject">
+                    <li class="dragObject-item"><span class="sr-only">A</span></li>
+                    <li class="dragObject-item"><span class="sr-only">B</span></li>
+                    <li class="dragObject-item"><span class="sr-only">C</span></li>
+                    <li class="dragObject-item"><span class="sr-only">D</span></li>
+                    <li class="dragObject-item"><span class="sr-only">E</span></li>
+                </ul>
+                <ul class="ans ans-q6">
+                    <li class="ans-item">A. Corporate Social Responsibility</li>
+                    <li class="ans-item">B. Environmental Protection</li>
+                    <li class="ans-item">C. Risk Management</li>
+                    <li class="ans-item">D. Corporate Governance</li>
+                    <li class="ans-item">E. All of the above</li>
+                </ul>
+            </div>
+        </div>
+        <footer>Copyright ©2021 ECOVE Environment Corporation. All rights reserved.</footer>
+        <div class="error" style="display: none;">
+            <div class="error-content">
+                <a href="javascript:" class="btn-back"> &lt; &lt; 返回 </a>
+                <div class="rightAns">
+                    <p class="title-rightAns"><span class="title-rightAns-q">Q :</span><span class="title-rightAns-ans">To effectively attain CSR fulfillment goals, ECOVE has set up CSR Task Forces. What working groups do these CSR Task Forces have for sustainability-related actions?</span></p>
+                    <p class="text-rightAns text-rightAns--center"><span class="title-rightAns-a">A :</span><span class="title-rightAns-ans">All of the above</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <script src="js/game.js"></script>
+</body>
+
+</html>

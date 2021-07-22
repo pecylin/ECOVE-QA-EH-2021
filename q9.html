@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+	<meta charset="UTF-8">
+	<title>Ecove Interactive game</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,500,700,900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="wrap">
+		<header>
+			<h1 class="sr-only">ECOVE Environment Services Corp</h1>
+		</header>
+		<div class="main">
+			<div class="game" data-anwser="A" data-next="q10.html">
+				<p class="text-tips">Please drag the bag with the correct answer to the clip</p>
+				<p class="q">ECOVE puts CSR into practice through its core businesses, and there is a 3-year environmental education plan that ECOVE and CTCI Foundation cooperates on. The name of the plan is?</p>
+				<div class="clip">
+					<span class="clip-hand clip-hand--left"></span>
+					<span class="clip-hand clip-hand--right"></span>
+					<span class="clip-body"></span>
+				</div>
+				<ul class="dragObject dragObject--q9">
+					<li class="dragObject-item"><span class="sr-only">A</span></li>
+					<li class="dragObject-item"><span class="sr-only">B</span></li>
+					<li class="dragObject-item"><span class="sr-only">C</span></li>
+					<li class="dragObject-item"><span class="sr-only">D</span></li>
+				</ul>
+				<ul class="ans ans-q9">
+					<li class="ans-item">A. Step by Step: Factories for Sustainable Environmental Education</li>
+					<li class="ans-item">B. Sustainability Engineering Camp for Kids</li>
+					<li class="ans-item">C. Taiwan in My Eyes 120H</li>
+					<li class="ans-item">D. Executive Yuan organized the Green Travel Environmental Education Facilities and Venues - Most Popular Choice campaign</li>
+				</ul>
+			</div>
+		</div>
+		<footer>Copyright ©2021 ECOVE Environment Corporation. All rights reserved.</footer>
+		<div class="error" style="display: none;">
+			<div class="error-content">
+				<a href="javascript:" class="btn-back"> &lt; &lt; Back </a>
+				<div class="rightAns rightAns--q9">
+					<p class="title-rightAns"><span class="title-rightAns-q">Q :</span><span class="title-rightAns-ans">ECOVE puts CSR into practice through its core businesses, and there is a 3-year environmental education plan that ECOVE and CTCI Foundation cooperates on. The name of the plan is?</span></p>
+					<p class="text-rightAns"><span class="title-rightAns-a">A :</span><span class="title-rightAns-ans">Step by Step: Factories for Sustainable Environmental Education</span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/jquery.ui.touch-punch.min.js"></script>
+	<script src="js/game.js"></script>
+</body>
+</html>
