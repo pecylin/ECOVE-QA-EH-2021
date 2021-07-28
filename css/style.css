@@ -183,52 +183,53 @@ h2 {
 	line-height: 1.8
 }
 .ans-item {
+	list-style: upper-alpha;
 	padding-right: 50px;
 	box-sizing: border-box;
 }
 .ans-q1{
 	width: 95%;
-	left: 10%;
+	left: 13%;
 }
 .ans-q2{
 	width: 70%;
-	left: 22%;
+	left: 24%;
 }
 .ans-q3{
 	width:76%;
-	left: 16%;
+	left: 21%;
 }
 .ans-q4{
 	width: 80%;
-	left: 14%;
+	left: 17%;
 }
 .ans-q5{
 	width: 80%;
-	top: 816px;
-	left: 18%;
+	top: 812px;
+	left: 23%;
 }
 .ans-q6{
 	width: 90%;
-	left: 9%;
+	left: 14%;
 }
 .ans-q7{
 	width: 80%;
-	top: 816px;
-	left: 13%;
+	top: 812px;
+	left: 19%;
 	line-height: 1.5;
 }
 .ans-q8{
 	width: 80%;
-	left: 16%;
+	left: 21%;
 }
 .ans-q9{
 	width: 90%;
 	top: 816px;
-	left: 9%;
+	left: 14%;
 }
 .ans-q10{
 	width: 95%;
-	left: 9%;
+	left: 12%;
 }
 .dragObject {
 	width: 88%;
