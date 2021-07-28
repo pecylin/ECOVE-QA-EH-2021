@@ -161,10 +161,11 @@ h2 {
 	width:63%;
 }
 .q-7,.q-9{
-	top:96px;
+	top:80px;
 }
 .q-8{
 	top: 78px;
+	line-height: 1.4;
 }
 .q-10{
 	top:118px;
@@ -393,6 +394,10 @@ footer {
 	padding: 16px 36px;
 	box-sizing: border-box;
 	bottom: 100px
+}
+.rightAns--q8{
+	top: 224px;
+	line-height: 1.4;
 }
 .rightAns--q7, .rightAns--q9{
 	top:250px;
